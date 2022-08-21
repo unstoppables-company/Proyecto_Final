@@ -19,7 +19,7 @@ def proceso():
         simbolo = simbolo + '*'
         print(simbolo)
     
-    espera = input("Como te sientes")
+    espera = input("Como te sientes hoy")
 
 
 for i in range(4):
