@@ -3,10 +3,10 @@ package com.example.sprint2;
 public class Empresa {
     private String companyName;
     private String companyAddress;
-    private int companyPhone;
-    private int companyNit;
+    private String companyPhone;
+    private String companyNit;
 
-    public Empresa(String companyName, String companyAddress, int companyPhone, int companyNit) {
+    public Empresa(String companyName, String companyAddress, String companyPhone, String companyNit) {
         this.companyName = companyName;
         this.companyAddress = companyAddress;
         this.companyPhone = companyPhone;
@@ -29,19 +29,19 @@ public class Empresa {
         this.companyAddress = companyAddress;
     }
 
-    public int getCompanyPhone() {
+    public String getCompanyPhone() {
         return companyPhone;
     }
 
-    public void setCompanyPhone(int companyPhone) {
+    public void setCompanyPhone(String companyPhone) {
         this.companyPhone = companyPhone;
     }
 
-    public int getCompanyNit() {
+    public String getCompanyNit() {
         return companyNit;
     }
 
-    public void setCompanyNit(int companyNit) {
+    public void setCompanyNit(String companyNit) {
         this.companyNit = companyNit;
     }
 }
